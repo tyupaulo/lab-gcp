@@ -17,6 +17,6 @@ resource "google_compute_instance" "firstvm" {
 
     access_config {
     }
-    // A presença do bloco access_config, mesmo sem argumentos, garante que a instância estará acessível pela internet.
+    // A presença do bloco access_config, mesmo sem argumentos, garante que a instância estará acessível pela internet. ajustando a chave3.
   }
 }
